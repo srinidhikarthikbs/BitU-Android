@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="fortextviewname" parent="AppTheme">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="fortextviewcontent" parent="AppTheme">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+
+    <style name="forbutton" parent="AppTheme">
+
+    </style>
+
+</resources>
+

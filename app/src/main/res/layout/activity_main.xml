@@ -1,0 +1,977 @@
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sc1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/outerll"
+                >
+
+
+>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll1"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv1"
+                        android:layout_weight="0.15"
+
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name1"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content1"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et1"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus1"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll2"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv2"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name2"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content2"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et2"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus2"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll3"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv3"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzathree"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name3"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content3"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et3"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus3"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll4"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv4"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzafour"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name4"
+                            android:layout_weight="0.6"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content4"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et4"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus4"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll5"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv5"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzafive"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name5"
+                            android:layout_weight="0.6"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content5"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et5"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus5"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll6"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv6"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1.0"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name6"
+                            android:layout_weight="0.6"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content6"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et6"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus6"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll7"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv7"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzaseven"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name7"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content7"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et7"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus7"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll8"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv8"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzaeight"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name8"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content8"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et8"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus8"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll9"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv9"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzanine"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name9"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content9"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et9"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus9"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll10"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv10"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name10"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content10"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et10"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus10"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll11"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv11"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzafive"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name11"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content11"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et11"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus11"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll12"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv12"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzafour"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name12"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content12"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et12"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus12"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll13"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv13"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzathree"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name13"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content13"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et13"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus13"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll14"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv14"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name14"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content14"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et14"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus14"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/innerll15"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/iv15"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/pizzatwo"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.5"
+                        android:weightSum="1"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewname"
+                            android:id="@+id/name15"
+                            android:layout_weight="0.6"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAlignment="center"
+                            style="@style/fortextviewcontent"
+                            android:id="@+id/content15"
+                            android:layout_weight="0.4"
+                            />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et15"
+                        style="@style/fortextviewname"
+                        android:layout_weight="0.2"
+                        />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/plus"
+                        android:id="@+id/plus15"
+                        android:layout_weight="0.15"
+                        />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn1"
+                    android:text="Place order"
+                    style="@style/forbutton"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textSize="28sp"
+                    />
+        </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+

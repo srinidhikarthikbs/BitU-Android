@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/innerll5"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv5"
+        android:layout_weight="0.15"
+        android:src="@drawable/pizzafive"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:weightSum="1.0"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            style="@style/fortextviewname"
+            android:id="@+id/name5"
+            android:layout_weight="0.6"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            style="@style/fortextviewcontent"
+            android:id="@+id/content5"
+            android:layout_weight="0.4"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/et5"
+        android:layout_weight="0.2"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:text="+"
+        android:id="@+id/plus5"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="80sp"
+        android:background="@drawable/plus"
+        />
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
